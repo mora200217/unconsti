@@ -17,7 +17,27 @@ ARG NEXT_PRIVATE_REVALIDATION_KEY
 # Crea una etapa para construir la aplicación
 FROM base AS builder
 
+<<<<<<< HEAD
 # Define el directorio de trabajo
+=======
+ARG PORT
+ARG DATABASE_URI
+ARG PAYLOAD_SECRET
+ARG PAYLOAD_PUBLIC_SERVER_URL
+ARG NEXT_PUBLIC_SERVER_URL
+ARG NEXT_PUBLIC_IS_LIVE
+ARG PAYLOAD_PUBLIC_DRAFT_SECRET
+ARG NEXT_PRIVATE_DRAFT_SECRET
+ARG REVALIDATION_KEY
+ARG NEXT_PRIVATE_REVALIDATION_KEY
+# ARG USER_EMAIL
+# ARG USER_PASS
+
+
+
+
+
+>>>>>>> deploy-test
 WORKDIR /home/node/app
 
 # Copia los archivos package.json y package-lock.json
@@ -37,6 +57,12 @@ FROM base AS runtime
 
 # Configura las variables de entorno utilizando ARG y ENV
 ENV NODE_ENV=production
+<<<<<<< HEAD
+=======
+ENV PAYLOAD_CONFIG_PATH=dist/payload.config.js
+
+ENV NODE_ENV=production
+>>>>>>> deploy-test
 ENV PAYLOAD_CONFIG_PATH=dist/payload/payload.config.js
 ENV PORT=${PORT}
 ENV DATABASE_URI=${DATABASE_URI}
@@ -50,7 +76,12 @@ ENV REVALIDATION_KEY=${REVALIDATION_KEY}
 ENV NEXT_PRIVATE_REVALIDATION_KEY=${NEXT_PRIVATE_REVALIDATION_KEY}
 # ARG USER_EMAIL=${USER_EMAIL}
 # ARG USER_PASS=${USER_PASS}
+<<<<<<< HEAD
 # Define el directorio de trabajo
+=======
+
+
+>>>>>>> deploy-test
 WORKDIR /home/node/app
 
 # Copia los archivos package.json y package-lock.json
