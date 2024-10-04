@@ -1,6 +1,6 @@
 # Prototipo de Aplicación Web: Proceso Constituyente - Universidad Nacional de Colombia
 
-Este repositorio contiene el código fuente de un prototipo de aplicación web que tiene como propósito visibilizar y facilitar la participación de la comunidad universitaria en el proceso constituyente de la Universidad Nacional de Colombia. A través de esta plataforma, los usuarios podrán acceder a la información clave del proceso, interactuar con los documentos oficiales y expresar sus ideas en un espacio de discusión colaborativa.
+Este repositorio contiene el código fuente de un prototipo de aplicación web que tiene como propósito visibilizar y facilitar la participación de la comunidad universitaria en el proceso constituyente de la Universidad Nacional de Colombia. A través de esta plataforma, los usuarios podrán acceder a la información clave del proceso, interactuar con los documentos oficiales y expresar sus ideas en un espacio de discusión colaborativa. 
 
 ## Descripción
 
