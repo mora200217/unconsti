@@ -24,7 +24,7 @@ export const HighImpactHero: React.FC<Page['hero']> = ({ richText, media, links 
   </div>
 
   <div className="col-md-7 d-flex justify-content-md-end justify-content-center">
-    <div className="d-flex flex-column d-none d-md-flex">
+    <div className="d-flex flex-column d-none d-md-flex align-content-end">
       <span className={`${classes.bluebar} `}></span> {/* Hidden on small screens */}
       <Image
         className={classes.hand}
