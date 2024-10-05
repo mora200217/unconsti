@@ -66,17 +66,17 @@ export default async function Post({ params: { slug } }) {
                 type: 'p',
                 children: [
                   {
-                    text: 'Authenticated users can leave comments on this post. All new comments are given the status "draft" until they are approved by an admin. Draft comments are not accessible to the public and will not show up on this page until it is marked as "published". To manage all comments, ',
+                    text: 'Observa lo que piensa la gente. Puedes dejar tu comentario para poder recoger insumos respecto a la situación en la sede. Puedes poner tus propuestas, tus preguntas y el equipo de UN Constituyente te responderá. ',
                   },
-                  {
-                    type: 'link',
-                    url: '/admin/collections/comments',
-                    children: [
-                      {
-                        text: 'navigate to the admin dashboard',
-                      },
-                    ],
-                  },
+                  // {
+                  //   type: 'link',
+                  //   url: '/admin/collections/comments',
+                  //   children: [
+                  //     {
+                  //       text: 'navigate to the admin dashboard',
+                  //     },
+                  //   ],
+                  // },
                   {
                     text: '.',
                   },

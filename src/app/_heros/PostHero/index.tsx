@@ -77,9 +77,9 @@ export const PostHero: React.FC<{
           </p>
           <div>
             <p className={classes.description}>
-              {`${description ? `${description} ` : ''}To edit this post, `}
+              {`${description ? `${description} ` : ''}Para editar los posts, `}
               <Link href={`${process.env.NEXT_PUBLIC_SERVER_URL}/admin/collections/posts/${id}`}>
-                navigate to the admin dashboard
+                cambialo en el panel de administrador
               </Link>
               {'.'}
             </p>
