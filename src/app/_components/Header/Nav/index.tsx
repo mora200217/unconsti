@@ -25,7 +25,7 @@ export const HeaderNav: React.FC<{ header: HeaderType }> = ({ header }) => {
         .join(' ')}
     >
       {navItems.map(({ link }, i) => {
-        return <CMSLink key={i} {...link} appearance="none" />
+        return <CMSLink key={i} {...link} appearance="default" />
       })}
       {user && <Link href="/account">Account</Link>}
       {/*
