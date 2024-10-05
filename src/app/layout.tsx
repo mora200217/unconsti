@@ -8,7 +8,9 @@ import { Providers } from './_providers'
 import { InitTheme } from './_providers/Theme/InitTheme'
 import { mergeOpenGraph } from './_utilities/mergeOpenGraph'
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './_css/app.scss'
+
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   return (
