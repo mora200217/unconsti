@@ -2,6 +2,11 @@
 
 .header {
   padding: var(--base) 0;
+  background: transparent !important; 
+  z-index: 100; 
+  width: 100vw;
+  position: fixed;
+  color: black !important; 
 }
 
 .wrap {
